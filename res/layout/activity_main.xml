@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dipapprev2.MainActivity"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/startSystem" />
+
+        <Button
+            android:id="@+id/btnClbrt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/calibration" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gps"
+            android:textSize="30dp"
+            android:textColor="@color/colorWhite"/>
+
+        <TextView
+            android:id="@+id/tLat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/latitude"
+            android:textColor="@color/colorInfo"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tLong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/longitude"
+            android:textColor="@color/colorInfo"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pasState"
+            android:textSize="30dp"
+            android:textColor="@color/colorWhite"/>
+
+        <TextView
+            android:id="@+id/tEnter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/enter"
+            android:textColor="@color/colorInfo"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/exit"
+            android:textColor="@color/colorInfo"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/inBus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="@string/inBus"
+            android:textColor="@color/colorInfo"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

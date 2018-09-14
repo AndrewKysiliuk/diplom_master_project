@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Дипломний Проект</string>
+    <string name="gpsSetting">Налаштування GPS</string>
+    <string name="btSetting">Налаштування Bluetooth</string>
+    <string name="btActivity">Пристрої</string>
+    <string name="scanItem">SCAN</string>
+    <string name="bt_on">EnableBt</string>
+    <string name="pairDevice">Спарені пристрої</string>
+    <string name="findDevice">Знайти пристрої</string>
+    <string name="saveBtn">Зберегти</string>
+    <string name="gps">GPS - координати:</string>
+    <string name="latitude">широта:</string>
+    <string name="longitude">довгота:</string>
+    <string name="pasState">Статус пасажирів:</string>
+    <string name="enter">зайшло: </string>
+    <string name="exit">вийшло: </string>
+    <string name="inBus">Всього в салоні: </string>
+    <string name="startSystem">Запуск системи</string>
+    <string name="calibration">Відкалібрувати</string>
+</resources>
